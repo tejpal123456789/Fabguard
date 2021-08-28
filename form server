@@ -8,7 +8,7 @@ sur_name=st.text_input('Last Name')
 import mysql.connector
 mydb=mysql.connector.connect(host='localhost',
                              user='root',
-                             password='tejpalananya1@',
+                             password='************',
                              port=3306,
                              database='databasefirst')
 mycursor=mydb.cursor()
